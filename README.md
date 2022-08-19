@@ -12,7 +12,9 @@ For assignments that I created, I came up with the idea and set up entirely. The
 
 **Goal:** Have students implement a doubly linked list from scratch and use it in an application.
 
-**Semesters Used:** 2
+**Semesters Used (as of Spring 2022):** 2
+
+**Professor(s):** [Antonella Di Lillo](https://engineering.tufts.edu/cs/people/faculty/antonella-di-lillo)
 
 This assignment has students implement a simple text editor using a modified doubly linked list (DLL). The editor supports character insertion and deletion as well as cursor movement forwards and backwards across the editor. For this assignment:
 
@@ -27,7 +29,9 @@ This assignment has students implement a simple text editor using a modified dou
 
 **Goal:** Have students implement a splay tree from scratch and use it in an application.
 
-**Semesters Used:** 2
+**Semesters Used (as of Spring 2022):** 2
+
+**Professor(s):** [Antonella Di Lillo](https://engineering.tufts.edu/cs/people/faculty/antonella-di-lillo)
 
 This assignment has students implement a system for analyzing work entries by an employee that is built on a modified splay tree. The tool allows users to search for work entries based on their title with the idea being that an employee may not always title the same activity the same. For instance, if someone is interested in how much time an employee spends on grading, the employee may log grading activities with a variety of titles that the employer may try to look up in succession such as "grading", "grading homework", "grading quizzes", "graded homework", etc. A splay tree is used as it takes advantage of locality-based searches. For this assignment:
 
@@ -42,7 +46,9 @@ This assignment has students implement a system for analyzing work entries by an
 
 **Goal:** Have students implement a closed hashing hash table and binary heap based priority queue from scratch and use them in an application.
 
-**Semesters Used:** 1
+**Semesters Used (as of Spring 2022):** 1
+
+**Professor(s):** [Antonella Di Lillo](https://engineering.tufts.edu/cs/people/faculty/antonella-di-lillo)
 
 This assignment has students implement a system for detecting spam emails using a modified hash table and priority queue. The tool is trained on batches of emails that have been labelled as spam or not by hand. The tool will receive batches of unlabelled emails to filter and new training batches that will be used to update the spamicity of emails that are stored (in an inbox). For this assignment:
 
@@ -61,7 +67,9 @@ For assignments that I wrote, I used an existing idea to rebuild the assignment.
 
 **Goal:** Have students implement a simulation that involves a variety of classes that interact with each other.
 
-**Semesters Used:** 2
+**Semesters Used (as of Spring 2022):** 2
+
+**Professor(s):** [Antonella Di Lillo](https://engineering.tufts.edu/cs/people/faculty/antonella-di-lillo)
 
 This assignment has students implement a simulation of an elevator that moves up and down and services clients in a first-come-first-serve fashion. The elevator services people who have a destination floor to travel to from the lobby. I did not come up with the idea of having an elevator simulation to test students' knowledge of object oriented programming, but I ended up writing up the assignment from scratch to make it more clear for students and more easily testable for grading. For this assignment:
 
@@ -75,9 +83,11 @@ This assignment has students implement a simulation of an elevator that moves up
 
 **Goal:** Have students become familiar with the pipes and filters design pattern as well as multithreading in Java.
 
-**Semesters Used:** 1
+**Semesters Used (as of Spring 2022):** 1
 
-This assignment has students implement a simplified Unix shell that allows the user to execute common Unix commands via Java's interface with the file system. Students implement this using the pipes and filters design pattern where the filters (i.e. subcommands) are executed sequentially in part 1 and concurrently using Java threads in part 2. An older version of this assignment had been used at Brandeis in Operating Systems for sometime, but Eitan Joseph and I rebuilt this assignment. For this assignment:
+**Professor(s):** [Iraklis Tsekourakis](https://tsekourakis.github.io/), [Liuba Shrira](https://www.cs.brandeis.edu/~liuba/)
+
+This assignment has students implement a simplified Unix shell that allows the user to execute common Unix commands via Java's interface with the file system. Students implement this using the pipes and filters design pattern where the filters (i.e. subcommands) are executed sequentially in part 1 and concurrently using Java threads in part 2. An older version of this assignment had been used at Brandeis in Operating Systems for sometime, but [Eitan Joseph](https://www.linkedin.com/in/eitan-joseph/) and I rebuilt this assignment. For this assignment:
 
 * We wrote the assignment description file. This introduces students to what aspects of the shell need to be implemented and how they will be doing so using the pipes and filters design pattern.
 * We prepared a starter kit with skeleton files for all the files students implement as well as some starter code for the pipes.
@@ -89,9 +99,11 @@ This assignment has students implement a simplified Unix shell that allows the u
 
 **Goal:** Have students become familiar with some of the aspects of CPU process scheduling.
 
-**Semesters Used:** 1
+**Semesters Used (as of Spring 2022):** 1
 
-This assignment has students simulate CPU process scheduling by scheduling vehicles travelling through tunnels. Vehicles serve as an abstraction of processes that require tunnels that abstract CPU cores where vehicles can perform their task (driving). Students use a variety of synchronization mechanisms to practice concepts such as locking, conditions, and mutual exclusion to implement the scheduling efficiently. An older version of this assignment had been used at Brandeis in Operating Systems for sometime, but Eitan Joseph and I rebuilt this assignment. For this assignment:
+**Professor(s):** [Iraklis Tsekourakis](https://tsekourakis.github.io/), [Liuba Shrira](https://www.cs.brandeis.edu/~liuba/)
+
+This assignment has students simulate CPU process scheduling by scheduling vehicles travelling through tunnels. Vehicles serve as an abstraction of processes that require tunnels that abstract CPU cores where vehicles can perform their task (driving). Students use a variety of synchronization mechanisms to practice concepts such as locking, conditions, and mutual exclusion to implement the scheduling efficiently. An older version of this assignment had been used at Brandeis in Operating Systems for sometime, but [Eitan Joseph](https://www.linkedin.com/in/eitan-joseph/) and I rebuilt this assignment. For this assignment:
 
 * We wrote the assignment description file. This introduces students the policy of the scheduler and how it needs to be implemented (e.g. to avoid busy waiting).
 * We prepared a starter kit with skeleton files for all the files students implement as well as some starter code for how vehicles drive.
